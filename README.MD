@@ -13,3 +13,9 @@ source env3/bin/activate
 Install django:
 pip3 install django
 
+Install requirements from requirements.txt
+
+ADD below e lines inside instawork/instawork/__init__.py
+import pymysql
+pymysql.install_as_MySQLdb()
+
