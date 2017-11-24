@@ -20,5 +20,6 @@ Install requirements from requirements.txt
 ADD below e lines inside instawork/instawork/__init__.py
 
 import pymysql
+
 pymysql.install_as_MySQLdb()
 
