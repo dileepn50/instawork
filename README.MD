@@ -23,3 +23,9 @@ import pymysql
 
 pymysql.install_as_MySQLdb()
 
+Go to database and create a database called 'instawork_db'
+
+Change your USER and PASSWORD according to you what you gave while creating database inside settings.py
+
+
+
