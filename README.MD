@@ -22,7 +22,7 @@ This is an assignment from instawork.
 
 6: Go to mysql and create a database called 'instawork_db'
 
-	Change your USER and PASSWORD inside settings.py file according to what you gave while creating database.
+7: Change your USER and PASSWORD inside settings.py file according to what you gave while creating database.
 
 
 
