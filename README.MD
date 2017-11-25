@@ -8,21 +8,19 @@ This is an assignment from instawork.
 
 	python3 -m virtualenv env3
 
-3: Install django:
+3: Inside virtual environment install requirred packages :
+	pip3 install -r requirements.txt 
 
-	pip3 install django
 
-4: Install requirements from requirements.txt
-
-5: ADD below  lines inside instawork/instawork/__init__.py
+4: ADD below  lines inside instawork/instawork/__init__.py
 
 	import pymysql
 
 	pymysql.install_as_MySQLdb()
 
-6: Go to mysql and create a database called 'instawork_db'
+5: Go to mysql and create a database called 'instawork_db'
 
-7: Change your USER and PASSWORD inside settings.py file according to what you gave while creating database.
+6: Change your USER and PASSWORD inside settings.py file according to what you gave while creating database.
 
 
 
