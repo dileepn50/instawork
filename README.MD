@@ -34,7 +34,9 @@ This is an assignment from instawork.
    		python manage.py runserver
 
 10: To list team member list and to add new member:
+
 	http://127.0.0.1:8000/api/team/team_list
+
 	sample input:
 		{
     "first_name": "deepak",
@@ -45,7 +47,9 @@ This is an assignment from instawork.
 }
 
 11: To edit or remove particualr team member:
+
 	http://127.0.0.1:8000/api/team/team_member_edit/id 				#id should be replaced by id of the team member
+
 	example: http://127.0.0.1:8000/api/team/team_member_edit/20/
 	 
 
