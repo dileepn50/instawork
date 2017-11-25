@@ -31,9 +31,11 @@ This is an assignment from instawork.
     iii: python manage.py migrate
 
 8: Import the db by running the command:
+
 		/usr/local/mysql/bin/mysql -u username -p instawork_db < /Users/dileepn/temp/instawork/mysql_database_dump.sql 
 
 9: Run the server:
+
    		python manage.py runserver
 
 10: To list team member list and to add new member:
@@ -51,7 +53,7 @@ This is an assignment from instawork.
 
 11: To edit or remove particualr team member:
 
-	http://127.0.0.1:8000/api/team/team_member_edit/id 				#id should be replaced by id of the team member
+	http://127.0.0.1:8000/api/team/team_member_edit/id 			#id should be replaced by id of the team member id
 
 	example: http://127.0.0.1:8000/api/team/team_member_edit/20/
 	 
