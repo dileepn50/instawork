@@ -5,8 +5,8 @@ from django.core.validators import RegexValidator
 # Create your models here.
 
 role_choices = (
-    ('ad', 'admin'),
-    ('rg', 'regular')
+    ('admin', 'admin'),
+    ('regular', 'regular')
 )
 
 
