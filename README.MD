@@ -23,8 +23,11 @@ This is an assignment from instawork.
 6: Change your USER and PASSWORD inside settings.py file according to what you gave while creating database.
 
 7: Go inside instawork directory where manage.py file is present and run 
+
 	i: python manage.py makemigraions 
+
 	ii: python manage.py makemigrations app
+
     iii: python manage.py migrate
 
 8: Import the db by running the command:
